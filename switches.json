@@ -1,0 +1,46 @@
+{
+  "switches": [
+    {
+      "host": "1.1.1.1",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    },
+    {
+      "host": "2.2.2.2",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    },
+    {
+      "host": "3.3.3.3",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    },
+    {
+      "host": "4.4.4.4",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    },
+    {
+      "host": "5.5.5.5",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    },
+    {
+      "host": "6.6.6.6",
+      "username": "arista",
+      "password": "arista_switch",
+      "secret": "arista123",
+      "device_type": "arista_eos"
+    }
+  ]
+}
