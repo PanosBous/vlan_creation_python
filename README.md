@@ -7,4 +7,4 @@ While developing this project, I obtained a deeper understanding on:
   1. object oriented programming and how this could implement in networking
   2. netmiko library, and how to connect to the devices
   3. json and yaml structures and the usage in networking
-  4. how the architecture is structured in network automation (data layer json or yaml), (model layer vlan.py), (device layer switch), (orchestration layer main.py)
+  4. how the architecture is structured in network automation: data layer json or yaml, model layer vlan.py, device layer switch, orchestration layer main.py
