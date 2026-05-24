@@ -4,7 +4,7 @@ class VLAN:
                  svi_ip = None, vrf = None, allowed_trunks = None, 
                  vni = None, dhcp_relay = None):
 
-        if not 1 <= int(vlan_id)<= 4094 and int(vlan_id) == 0 and int(vlan_id) == 99:
+        if not (1 <= int(vlan_id)<= 4094) or int(vlan_id) == 99:
             raise ValueError("Invalid ID, Vlan id must be between 1 to 4094, and neither vlan 1 nor vlan 99")
 
         self.vlan_id = str(vlan_id)
