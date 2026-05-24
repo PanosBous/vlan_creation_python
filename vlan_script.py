@@ -42,7 +42,7 @@ def main():
     vlans = get_vlans_from_user()
 
     # There are 5 predefined arista switches in a json file
-    # i need to open that file
+    # open switches file
     with open('switches.json') as f:
         data = json.load(f)
 
